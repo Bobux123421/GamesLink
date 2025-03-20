@@ -1,6 +1,6 @@
 local currentPlaceId = game.PlaceId
 
-if currentPlaceId == 6137321701 or currentPlaceId == 2239430935 then
+if currentPlaceId == 6137321701 or currentPlaceId == 2239430935 or currentPlaceId == 6348640020 then
     print("Detected Blair! Loading script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Bobux123421/GamesLink/refs/heads/main/Blair.lua"))()
 elseif currentPlaceId == 6170143659 then
