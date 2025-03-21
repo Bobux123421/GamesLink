@@ -9,6 +9,9 @@ elseif currentPlaceId == 6170143659 then
 elseif currentPlaceId == 8260276694 then
     print("Detected Ability Wars! Loading script...")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Bobux123421/GamesLink/refs/heads/main/Ability%20wars.lua"))()
+elseif currentPlaceId == 2768379856 then
+    print("Detected 3008! Loading...")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bobux123421/GamesLink/refs/heads/main/3OO8.lua"))()
 else
     print("Not in a supported game. Current PlaceId: " .. tostring(currentPlaceId))
 end 
